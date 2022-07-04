@@ -1,0 +1,157 @@
+:root {
+   
+   --cor-botoes:#E50914;
+    
+}
+
+* {   
+ box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    
+    cursor: pointer;
+}
+
+body {
+
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+header {
+
+    background-image: url(img/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    height: 735px;
+}
+
+.opacidade {
+
+    height: 100%;
+    background-color: black;
+    opacity: 0.85;
+}
+
+.flex {
+
+    display: flex;
+    width:92%;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+.area-logo img {
+
+    max-width:200px;
+    height: auto;
+}
+
+.btn {
+
+    min-width:80px;
+    max-width: 100px;
+    padding: 10px;
+    background-color: #E50914;
+    box-shadow: 3px 3px 3px rgb(14, 14, 14);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+.conteudo-l {
+
+    display: flex;
+    align-items:center;
+}
+
+select {
+
+    background-color:black;
+    color: #fff;
+    padding:9px;
+    margin-right: 25px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
+option {
+
+    background-color: grey;
+}
+
+/*área central */
+
+.area-central {
+
+    display: flex;
+    width: 92%;
+    margin: auto;
+    flex-direction: column;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-central {
+
+    line-height: 50px;
+    max-width: 600px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(119, 117, 117);
+}
+
+.conteudo-central h2 {
+    
+    font-size: 60px;   
+}
+
+.conteudo-central p{
+
+    font-size: 20px;
+}
+
+.pesquisa {
+ 
+     width: 50%;
+     position: relative;
+}
+
+.pesquisa input {
+
+    width: 70%;
+    padding: 22.5px 10px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    border: none;
+}
+
+
+.pesquisa button {
+
+    width:29%;
+    font-size: 25px;
+    position: absolute;
+    padding:15px 0 ;
+    top:0;
+    right: 6px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(21, 21, 21);
+}
+
+.pesquisa button:hover {
+
+    background-color: rgb(243, 29, 29);
+}
