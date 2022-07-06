@@ -25,19 +25,12 @@ body {
 
 header {
 
-    background-image: url(img/img-fundo.jpg);
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/img-fundo.jpg") bottom right no-repeat;
     background-size: cover;
-    background-position: bottom right;
     height: 735px;
+    border-bottom: 8px solid #222;  
 }
 
-.opacidade {
-
-    height: 100%;
-    background-color: black;
-    opacity: 0.85;
-}
 
 .flex {
 
@@ -45,10 +38,9 @@ header {
     width:92%;
     justify-content: space-between;
     margin: auto;
-    
 }
 
-.area-logo img {
+.area-logo svg {
 
     max-width:200px;
     height: auto;
@@ -93,19 +85,20 @@ option {
 
     display: flex;
     width: 92%;
-    margin: auto;
+    margin:auto;
     flex-direction: column;
-    height: 70%;
+    height: 60%;
     justify-content: center;
     align-items: center;
+    z-index: -2;
 }
 
 .conteudo-central {
 
-    line-height: 50px;
+    line-height: 60px;
     max-width: 600px;
     color: #fff;
-    text-shadow: 1px 1px 1px rgb(119, 117, 117);
+    text-shadow: 1px 1px 2px rgb(186, 185, 185);
 }
 
 .conteudo-central h2 {
@@ -126,20 +119,20 @@ option {
 
 .pesquisa input {
 
-    width: 70%;
-    padding: 22.5px 10px;
+    width: 69%;
+    padding: 22.5px 15px;
     text-align: left;
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 3px;
     border: none;
+    z-index: 2;
 }
 
 
 .pesquisa button {
 
-    width:29%;
+    width:29.6%;
     font-size: 25px;
     position: absolute;
     padding:15px 0 ;
